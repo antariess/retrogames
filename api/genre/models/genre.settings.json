@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "genres",
+  "info": {
+    "name": "genre"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "genre_slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "genre_name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
